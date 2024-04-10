@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     --pico-color: white;
+    --pico-h2-color: white;
 }
 body {
     background-color: black;
@@ -9,7 +10,7 @@ header {
     --pico-block-spacing-vertical: 0;
 }
 nav{
-    background: linear-gradient( #ffb67f, #715191);
+    background: linear-gradient(#ffb67f, #715191);
     padding: 0px 15px 0px 30px;
     margin: 0;
 }
@@ -26,4 +27,32 @@ h1 {
 }
 .contenaire1{
     display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.contenaire2{
+    width: 100vw;
+    padding-bottom: 70px;
+}
+.titreCentrée{
+    text-align: center;
+}
+#imageDeTransition{
+    background-image: url(bb7a3f93629625.5e696ee542cb6.jpg);
+    height: 200px;
+}
+.photosProjets{
+    display: flex;
+    flex-wrap: wrap;
+}
+.photosProjets img {
+    width: 50%;
+}
+.barreDadress{
+    background: linear-gradient( #715191, #ffb67f);
+    padding: 0px 15px 0px 30px;
+    margin: 0;
+}
+footer{
+    --pico-block-spacing-vertical: 0;
 }
