@@ -1,4 +1,29 @@
+*{
+    margin: 0px;
+    --pico-color: white;
+}
+body {
+    background-color: black;
+}
+header {
+    --pico-block-spacing-vertical: 0;
+}
 nav{
-    background-color: #ffb67f #715191;
-    margin:10px
+    background: linear-gradient( #ffb67f, #715191);
+    padding: 0px 15px 0px 30px;
+    margin: 0;
+}
+.banner{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(bb7a3f93629625.5e696ee542cb6.jpg);
+    height: 100vh;
+    text-align: center;
+    --pico-h1-color: white;
+}
+h1 {
+    padding-top: 50px;
+}
+.contenaire1{
+    display: flex;
 }
